@@ -12,7 +12,7 @@ def category_spending(user):
         spending.update(({user["category"]: int(user["amount"])}))
 
 
-with open("users_csv.csv", "r", encoding="utf-8") as file:
+with open("personal_spending.csv", "r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
 
     for row in reader:

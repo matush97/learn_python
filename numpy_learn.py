@@ -101,7 +101,7 @@ print(a.sum(axis=1)) # Sum podľa riadkov
 
 # Toto by som si reálne odložil:
 
-import numpy as np
+import numpy_learn as np
 # Array
 a = np.array([1, 2, 3, 4])
 # 2D array
@@ -167,3 +167,15 @@ a = np.array([
 
 # a.max(axis=0)
 # a.max(axis=1)
+
+
+# np.array() → vytvorím array
+# .shape → aké má rozmery
+# .ndim → koľko má dimenzií
+# a[0] / a[0, 1] → indexing
+# a[1:4] → slicing
+# a + 10 → operácia nad celým array
+# .mean() → priemer
+# .sum() → súčet
+# .min() / .max() → minimum / maximum
+# axis=0 / axis=1 → po stĺpcoch / po riadkoch.
